@@ -98,11 +98,12 @@ void builLevelorder(node* root){
             temp->right = new node(rightData);
             q.push(temp->right);
         }
-        
     }
 }
 
 int main(){
 
+    node* root = NULL;
+    builLevelorder(root);
     return 0;
 }
