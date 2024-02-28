@@ -103,7 +103,7 @@ vector<int> zigZagTraversal(Node* root){
                 q.push(temp->right);
             }
         }
-
+         leftToRight = !leftToRight;
         for(auto i : ans){
             result.push_back(i);
         }
